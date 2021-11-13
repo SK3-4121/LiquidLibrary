@@ -1,0 +1,7 @@
+apt update
+apt upgrade
+apt install python3 wget
+
+pip install colorama requests
+or
+pip3 install colorama requests
