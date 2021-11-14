@@ -5,6 +5,7 @@
 Version = "1.1"
 
 import os
+import wget
 import time
 import socket
 import requests
@@ -58,9 +59,10 @@ def start_server():
         if str(mount) == "":
             mount = "/"
         python_command = f"cd {str(mount)} && python3 -m http.server {str(port)}"
-        print(Fore.GREEN + "[+]: Your host link is > http://" + Local_IP + ":" + str(port) + str("/Dashboard") + Fore.RESET)
+        print(Fore.GREEN + "[+]: Your host link is > http://" + Local_IP + ":" + str(port) + Fore.RESET)
         print(Fore.YELLOW + "~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         os.system(python_command)
+        print(RESET)
     HOST_Thread = threading.Thread(target=start_se)
     HOST_Thread.start()
 
@@ -79,6 +81,10 @@ def Loader():
     if c1 and c2 == True:
         colur("[+]: Certifcation success")
         start_server()
+        time.sleep(5)
+        test_input = input("[•]: Upload file?")
+        outp = input("[•]: New Directory: ")
+        wget.download(str(test_input), str(outp))
     else:
         colur("[-]: Certifcation failed auto closing")
         os.close()
@@ -93,4 +99,4 @@ if __name__ == "__main__":
         __main__()
     except:
         colur("[-]: There was a error running __main__() [-12254]")
-        RESET
+        print(RESET)
