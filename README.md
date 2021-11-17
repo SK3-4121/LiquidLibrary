@@ -32,6 +32,15 @@ Make sure you have git installed on what ever system your running. And this prog
 git clone https://github.com/SK3-4121/LiquidLibrary.git
 ```
 
+### FAQ
+- Wheres the paid version > Does not exist yet
+- Does this have edit > Paid version will for a fact
+- How much will the paid version be > 1.99$usd
+- How do I install this > Goto the release and install it how it says
+- What versions of iOS does this support > 12-14 (15 when it comes out)
+- How do i configure the windows version if it is closed source exe > That will be fixed soon but for now you should manualy compile it its not hard or just run it while its open sourced
+- What dependencies do I need on my iphone to run this > All dependencies will auto be installed if there not already found on the device
+
 ### Change-Logs & Upcoming Updates
 - Change Logs:
    - Windows Installer RELEASE
