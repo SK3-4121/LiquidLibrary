@@ -32,10 +32,11 @@ chmod 777 LiquidLibrary
 cd LiquidLibrary
 chmod +x run.sh
 
-echo ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+echo \n\n\n\n\n\n\n\n\n\n^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
 echo Run "./run.sh" to run the application
 
 python3
 import os
+import stdin
 a = input(str("Click Return/Enter to respring"))
 os.system("sbreload")
