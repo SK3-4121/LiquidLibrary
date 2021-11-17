@@ -18,6 +18,8 @@
     
 ### RELEASES
 
+- deb installer will come tmwr
+
 - [iOS](https://github.com/SK3-4121/LiquidLibrary/blob/main/iOS-INSTALLER/ins.mb  "Download iOS build for this release")
 - [WINDOWS](https://github.com/SK3-4121/LiquidLibrary/tree/main/RELASES/WINDOWS  "Download WINDOWS build for this release")
 - [Linux - SOON](  "Download Linux build for this release")
@@ -39,7 +41,7 @@ git clone https://github.com/SK3-4121/LiquidLibrary.git
    - WEB UI (Currently its all headless)
    - better hashing
    - Swift UI (iOS 14-13 ONLY)
-   - deb/ipa
+   - deb/ipa (deb installer will come tmwr)
    - ICONS PACKS
 
 ### EAT(s)
