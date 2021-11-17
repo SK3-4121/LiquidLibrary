@@ -6,7 +6,7 @@ echo ########### V1.1 ###########
 apt update
 #apt upgrade
 
-cd /var/mobile/Downloads
+cd /var/mobile/Downloads/
 
 apt install python3 wget git
 
