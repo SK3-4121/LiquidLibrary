@@ -19,7 +19,7 @@ python3 get-pip.py
 
 /usr/bin/python3 -m pip install --upgrade pip
 
-pip install colorama requests
+pip install colorama requests stdin
 
 rm -f -r get-pip.py
 
@@ -32,11 +32,11 @@ chmod 777 LiquidLibrary
 cd LiquidLibrary
 chmod +x run.sh
 
-echo \n\n\n\n\n\n\n\n\n\n^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 echo Run "./run.sh" to run the application
 
 python3
 import os
 import stdin
-a = input(str("Click Return/Enter to respring"))
+input("Click Return/Enter to respring: ")
 os.system("sbreload")
