@@ -4,8 +4,7 @@
 </p>
 <p align="center">
 
-<p align="center" >
-    <button herf="https://google.com">TEST</button>
+<p align="center">
     <a href="https://github.com/SK3-4121/LiquidLibrary">
         <img src="https://img.shields.io/github/languages/code-size/ScoopInstaller/Scoop.svg" alt="Code Size" />
     </a>
