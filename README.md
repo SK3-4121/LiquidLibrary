@@ -28,3 +28,8 @@
 ```powershell
 git clone https://github.com/SK3-4121/LiquidLibrary.git
 ```
+
+### Change-Logs & Upcoming Updates
+
+### Want to buy me a coffee?
+- [PayPal](https://www.paypal.com/myaccount/transfer/homepage/buy/preview) (one-time donation)
