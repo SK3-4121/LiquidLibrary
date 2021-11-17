@@ -1,4 +1,8 @@
-## LiquidLibrary
+<p align="center">
+<!--<img src="scoop.png" alt="Long live Scoop!"/>-->
+    <h1 align="center">LiquidLibrary ~ V1.1</h1>
+</p>
+<p align="center">
 
 ### RELEASES
 
