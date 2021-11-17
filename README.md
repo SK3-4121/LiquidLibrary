@@ -4,6 +4,18 @@
 </p>
 <p align="center">
 
+<p align="center" >
+    <a href="https://github.com/ScoopInstaller/Scoop">
+        <img src="https://img.shields.io/github/languages/code-size/ScoopInstaller/Scoop.svg" alt="Code Size" />
+    </a>
+    <a href="https://github.com/ScoopInstaller/Scoop">
+        <img src="https://img.shields.io/github/repo-size/ScoopInstaller/Scoop.svg" alt="Repository size" />
+    </a>
+    <a href="https://discord.gg/s9yRQHt">
+        <img src="https://img.shields.io/badge/chat-on%20discord-7289DA.svg" alt="Discord Chat" />
+    </a>
+</p>
+    
 ### RELEASES
 
 - [iOS](https://github.com/SK3-4121/LiquidLibrary/blob/main/iOS-INSTALLER/ins.mb  "Download iOS build for this release")
