@@ -5,9 +5,13 @@ echo ########### V1.1 ###########
 apt update
 apt upgrade
 
+cd /var/mobile/Documents
+
 apt install python3 wget git
 
 git clone https://github.com/SK3-4121/LiquidLibrary.git
+
+cd LiquidLibrary
 
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py --output get-pip.py
 python3 get-pip.py
