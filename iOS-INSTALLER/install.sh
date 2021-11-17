@@ -31,4 +31,6 @@ mkdir Scripts/Settings
 chmod 777 LiquidLibrary
 cd LiquidLibrary
 chmod +x run.sh
-./run.sh
+
+echo ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
+echo Run "./run.sh" to run the application
