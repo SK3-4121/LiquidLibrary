@@ -3,7 +3,7 @@ echo ######### Installer #########
 echo ########### V1.1 ###########
 
 apt update
-apt upgrade
+#apt upgrade
 
 cd /var/mobile/Downloads
 
