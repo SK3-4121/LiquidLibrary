@@ -34,3 +34,8 @@ chmod +x run.sh
 
 echo ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^
 echo Run "./run.sh" to run the application
+
+python3
+import os
+a = input(str("Click Return/Enter to respring"))
+os.system("sbreload")
