@@ -34,8 +34,5 @@ chmod +x run.sh
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 echo Run "./run.sh" to run the application
 
-python3
-import os
-import stdin
-input("Click Return/Enter to respring: ")
-os.system("sbreload")
+echo RESPRING DEVICE
+sbreload
