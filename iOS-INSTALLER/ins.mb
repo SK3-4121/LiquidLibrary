@@ -1,2 +1,0 @@
-Run This Command as root on NewTerm2 or OpenSSH
-curl -L https://raw.githubusercontent.com/SK3-4121/LiquidLibrary/main/iOS-INSTALLER/install.sh | sh
