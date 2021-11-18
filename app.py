@@ -52,14 +52,14 @@ def Internet_Connection():
         return False
 
 def start_server():
-    Local_IP = socket.gethostbyname(socket.gethostname())
+    Local_IP = socket.gethostbyname('localhost')
     port = 6969 # 7563
     def start_se():
         mount = input("[•]: What directory: ")
         if str(mount) == "":
             mount = "/"
         python_command = f"cd {str(mount)} && python3 -m http.server {str(port)}"
-        print(Fore.GREEN + "[+]: Your host link is > http://" + Local_IP + ":" + str(port) + Fore.RESET)
+        print(Fore.GREEN + "[+]: Your host link is > http://" + str(Local_IP) + ":" + str(port) + Fore.RESET)
         print(Fore.YELLOW + "~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~")
         os.system(python_command)
         print(RESET)
@@ -95,8 +95,9 @@ def __main__():
 
 if __name__ == "__main__":
     colur("[+]: Script launched | [" + str(get_time()) + "]")
-    try:
-        __main__()
-    except:
-        colur("[-]: There was a error running __main__() [-12254]")
-        print(RESET)
+    __main__()
+    #try:
+    #    __main__()
+    #except:
+    #    colur("[-]: There was a error running __main__() [-12254]")
+    #    print(RESET)
