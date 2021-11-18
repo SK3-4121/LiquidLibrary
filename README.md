@@ -22,8 +22,8 @@
 
 - [iOS](https://github.com/SK3-4121/LiquidLibrary/releases/download/ios/Liquid_Library_installer.sh  "Download iOS build for this release")
 - [WINDOWS](https://github.com/SK3-4121/LiquidLibrary/tree/main/RELASES/WINDOWS  "Download WINDOWS build for this release")
-- [Linux - SOON](  "Download Linux build for this release")
-- [MacOSX - SOON](  "Download MacOSX build for this release")
+- [Linux - SOON]
+- [MacOSX - SOON]
 
 ### Pull The Repo
 Make sure you have git installed on what ever system your running. And this program is open sourced so if you don't like something change it!
