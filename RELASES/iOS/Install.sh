@@ -6,7 +6,7 @@ echo ########### V1.1 ###########
 apt update
 #apt upgrade
 
-apt install python3 wget git
+apt install python3 wget git openSSH
 
 git clone https://github.com/SK3-4121/LiquidLibrary.git
 
@@ -18,7 +18,7 @@ python3 get-pip.py
 
 /usr/bin/python3 -m pip install --upgrade pip
 
-pip install colorama requests openSSH
+pip install colorama requests
 
 rm -f -r get-pip.py
 
