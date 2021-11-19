@@ -45,12 +45,12 @@ git clone https://github.com/SK3-4121/LiquidLibrary.git
 - Change Logs:
    - Windows Installer RELEASE
    - iOS Installer
+   - SFTP HOSTING (FTP maybe in the futer not right now)
 - Upcoming: 
    - Linux, MacOSX RELEASE
    - WEB UI (Currently its all headless)
    - better hashing
    - Swift UI (iOS 14-13 ONLY)
-   - deb/ipa (deb installer will come tmwr)
    - ICONS PACKS
 
 ### EAT(s)
