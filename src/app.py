@@ -52,6 +52,7 @@ def Internet_Connection():
         return False
 
 def start_server():
+    os.system("SSHswitch on")
     print(Fore.GREEN + "[+]: Starting LOCALHOST SFTP SERVER" + Fore.RESET)
     print(Fore.YELLOW + "[•]: If something shows in the logs thats not good")
     print(Fore.YELLOW + "~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~")
