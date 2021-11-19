@@ -52,19 +52,9 @@ def Internet_Connection():
         return False
 
 def start_server():
-    Local_IP = socket.gethostbyname('localhost')
-    port = 6969 # 7563
-    def start_se():
-        mount = input("[•]: What directory: ")
-        if str(mount) == "":
-            mount = "/"
-        python_command = f"cd {str(mount)} && python3 -m http.server {str(port)}"
-        print(Fore.GREEN + "[+]: Your host link is > http://" + str(Local_IP) + ":" + str(port) + Fore.RESET)
-        print(Fore.YELLOW + "~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~")
-        os.system(python_command)
-        print(RESET)
-    HOST_Thread = threading.Thread(target=start_se)
-    HOST_Thread.start()
+    print(Fore.GREEN + "[+]: Starting LOCALHOST SFTP SERVER" + Fore.RESET)
+    print(Fore.YELLOW + "[•]: If something shows in the logs thats not good")
+    print(Fore.YELLOW + "~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 def Loader():
     c1,c2 = False, False
