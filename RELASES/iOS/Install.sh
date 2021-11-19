@@ -18,7 +18,7 @@ python3 get-pip.py
 
 /usr/bin/python3 -m pip install --upgrade pip
 
-pip install colorama requests stdin
+pip install colorama requests openSSH
 
 rm -f -r get-pip.py
 
