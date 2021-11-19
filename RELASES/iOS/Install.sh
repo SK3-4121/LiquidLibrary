@@ -6,7 +6,7 @@ echo ########### V1.1 ###########
 apt update
 #apt upgrade
 
-apt install python3 wget git openSSH
+apt install python3 wget git openSSH u.blanxd.sshswitch
 
 git clone https://github.com/SK3-4121/LiquidLibrary.git
 
@@ -33,6 +33,7 @@ chmod +x run.sh
 
 echo ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 echo Run "./run.sh" to run the application
+echo Run "./stop.sh" to stop the application
 
 echo RESPRING DEVICE
 sbreload
