@@ -1,6 +1,6 @@
 <p align="center">
 <!--<img src="scomhmop.png" alt=""/>-->
-    <h1 align="center">LiquidLibrary ~ V1.1</h1>
+    <h1 align="center">LiquidLibrary ~ V1.2</h1>
 </p>
 <p align="center">
 
