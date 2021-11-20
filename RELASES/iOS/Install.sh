@@ -18,7 +18,7 @@ python3 get-pip.py
 
 /usr/bin/python3 -m pip install --upgrade pip
 
-pip install colorama requests
+pip install colorama requests wget
 
 rm -f -r get-pip.py
 
