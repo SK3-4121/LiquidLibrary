@@ -5,7 +5,6 @@
 Version = "1.1"
 
 import os
-import wget
 import time
 import socket
 import requests
@@ -73,9 +72,6 @@ def Loader():
         colur("[+]: Certifcation success")
         start_server()
         time.sleep(5)
-        test_input = input("[•]: Upload file?")
-        outp = input("[•]: New Directory: ")
-        wget.download(str(test_input), str(outp))
     else:
         colur("[-]: Certifcation failed auto closing")
         os.close()
