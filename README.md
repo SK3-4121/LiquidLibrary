@@ -31,6 +31,7 @@ git clone https://github.com/SK3-4121/LiquidLibrary.git
 ```
 
 ### FAQ
+- Whats the default password > "alpine" you should change
 - Can this brick my IDevice > If it does it would be because of dkpg all you have to do to fix it is reboot then respring
 - Wheres the paid version > Does not exist yet
 - Does this have edit > Paid version will for a fact
