@@ -7,7 +7,6 @@ Version = "1.1"
 import os
 import time
 import socket
-import requests
 import threading
 import colorama; colorama.init; Fore = colorama.Fore; RESET = Fore.RESET
 
@@ -40,16 +39,6 @@ def check_Directorys():
     if c1 and c2 and c3 and c4 == True:
         return True
 
-def Internet_Connection():
-    request = requests.Session()
-    try:
-        request.post("https://google.com", timeout=5)
-        return True
-    except requests.Timeout:
-        pass
-    except requests.ConnectionError:
-        return False
-
 def start_server():
     os.system("SSHswitch on")
     print(Fore.GREEN + "[+]: Starting LOCALHOST SFTP SERVER" + Fore.RESET)
@@ -57,12 +46,7 @@ def start_server():
     print(Fore.YELLOW + "~~~~~~~~~~~~~~~~~~~~~~~~~~~ LOGS ~~~~~~~~~~~~~~~~~~~~~~~~~~~")
 
 def Loader():
-    c1,c2 = False, False
-    if Internet_Connection() == True:
-        colur("[+]: Connected to the internet")
-        c1 = True
-    else:
-        colur("[-]: Not connected to internet [-51556]")
+    c1,c2 = True, False
     if check_Directorys() == True:
         colur("[+]: All files found!")
         c2 = True
