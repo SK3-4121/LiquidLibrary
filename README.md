@@ -20,7 +20,7 @@
 
 - [iOS](https://github.com/SK3-4121/LiquidLibrary/releases/download/ios/installer.sh  "Download iOS build for this release")
 - [WINDOWS](https://github.com/SK3-4121/LiquidLibrary/tree/main/RELASES/WINDOWS  "Download WINDOWS build for this release")
-- [Linux - SOON]
+- [Linux](https://github.com/SK3-4121/LiquidLibrary/tree/main/RELASES/LINUX  "Download WINDOWS build for this release")
 - [MacOSX - SOON]
 
 ### Pull The Repo
