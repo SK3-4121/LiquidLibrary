@@ -6,7 +6,7 @@ echo ########### V1.1 ###########
 apt update
 #apt upgrade
 
-apt install python3 wget git openSSH u.blanxd.sshswitch
+apt install python3 wget git openSSH u.blanxd.sshswitch curl
 
 git clone https://github.com/SK3-4121/LiquidLibrary.git
 
