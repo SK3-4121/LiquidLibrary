@@ -1,3 +1,5 @@
 ## How to setup
 
-### You can configure the localhost server on your IDevice by 
+### Add your iphones LocalIP to the network in the file manager
+
+### works on KDE PLASMA, LDM, GNOME, Awesome
